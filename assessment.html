@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <title>HTML Assessment</title>
+   </head>
+
+   <body>
+      <h1>Text</h1>
+
+      <p>
+         <strong>Sed</strong> ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem ipsum, quia dolor sit amet consectetur adipisci[ng] velit, sed quia non-numquam [do] eius modi tempora inci[di]dunt, ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit, qui in ea voluptate velit esse, quam nihil molestiae consequatur, vel illum, qui dolorem eum fugiat, quo voluptas nulla pariatur?
+      </p>
+
+      <p style="margin-left: 40px">
+         <em><strong>At</strong> vero eos et accusamus et iusto odio dignissimos ducimus, qui blanditiis praesentium voluptatum deleniti atque corrupti, quos dolores et quas molestias excepturi sint, obcaecati cupiditate non-provident, similique sunt in culpa, qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio, cumque nihil impedit, quo minus id, quod maxime placeat, facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet, ut et voluptates repudiandae sint et molestiae non-recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat…</em>
+      </p>
+
+      <p>
+         <strong>But</strong> I must explain to you how all this mistaken idea of denouncing of a pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?
+      </p>
+
+      <h1>Table</h1>
+
+      <table border="1">
+         <tr>
+            <td rowspan="3">Team Name</td>
+            <td colspan="4">Scores By Quarter</td>
+         </tr>
+         <tr>
+            <td colspan="2">First Half</td>
+            <td colSpan="2">Second Half</td>
+         </tr>
+         <tr>
+            <td>Q1</td>
+            <td>Q2</td>
+            <td>Q3</td>
+            <td>Q4</td>
+         </tr>
+         <tr>
+            <td>Denver</td>
+            <td>7</td>
+            <td>3</td>
+            <td>0</td>
+            <td>7</td>
+            <td><strong>17</strong></td>
+         </tr>
+         <tr>
+            <td>Chicago</td>
+            <td>0</td>
+            <td>6</td>
+            <td>3</td>
+            <td>6</td>
+            <td><strong>15</strong></td>
+         </tr>
+         <tr>
+            <td><strong>Total</strong></td>
+            <td>7</td>
+            <td>9</td>
+            <td>3</td>
+            <td>13</td>
+            <td><strong>32</strong></td>
+         </tr>
+      </table>
+
+      <h1>List</h1>
+
+      <ul>
+         <li>
+            <img src="Broncos.png" alt="Broncos Logo" width="80" height="80"><br>
+            <a href="https://www.denverbroncos.com/">Denver Broncos</a>
+            <ul>
+               <li>Coach: Vance Joseph</li>
+               <li>QBs:</li>
+               <ol>
+                  <li>Case Keenum</li>
+                  <li>Paxton Lynch</li>
+               </ol>
+            </ul>
+         </li>
+         <li>
+            <img src="Bears.png" alt="Bears Logo" width="80" height="80"><br>
+            <a href="https://www.chicagobears.com/">Chicago Bears</a>
+            <ul>
+               <li>Coach: Matt Nagy</li>
+               <li>QBs:</li>
+               <ol>
+                  <li>Mitchell Trubiski</li>
+                  <li>Chase Daniel</li>
+               </ol>
+            </ul>
+         </li>
+      </ul>
+
+      <h1>Form</h1>
+
+      <form method="post">
+         First: <input type="text" name="firstName" value="">
+         Last: <input type="text" name="lastName" value="">
+
+         <br>
+         Favorite Sport:
+         <br>
+         <select name="favoriteSport">
+            <option value="baseball">Baseball</option>
+            <option value="basketball">Basketball</option>
+            <option value="football">Football</option>
+            <option value="soccer" selected>Soccer</option>
+         </select>
+
+         <br>
+         I have
+         <input type="checkbox" name="attended" value="attended"> Attended
+         <input type="checkbox" name="coached" value="coached"> Coached
+         <input type="checkbox" name="played" value="played"> Played
+         <input type="checkbox" name="betOn" value="betOn"> Bet On
+         <br>
+         This Sport
+
+         <br>
+         For this sport I prefer
+            <input type="radio" name="prefer" value="amerature" checked> Amerature
+            <input type="radio" name="prefer" value="college"> College
+            <input type="radio" name="prefer" value="professional"> Professional
+
+         <br>
+         <input type="submit" value="Submit Query">
+      </form>
+   </body>
+</html>
